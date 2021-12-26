@@ -1,0 +1,66 @@
+{
+    "Meals": [
+        "Breakfast hash made with chickpeas, chicken sausage, mushrooms, sweet potatoes, and spinach",
+        "Spinach salad",
+        "Bagel with smoked salmon, cream cheese, and spinach",
+        "Scrambled eggs with spinach",
+        "Butter grilled shrimp",
+        "Chicken sandwich with tomatos and spinach",
+        "Pasta with spinach and ground chicken",
+        "Salmon with rice and spinach",
+        "Kale chicken salad",
+        "Pesto pasta with chicken and spinach",
+        "Grilled salmon"
+    ],
+
+    "Categories": {
+        "Fruits": [
+            "Orange",   
+            "Lemon",
+            "Tangerine",
+            "Lime",
+            "Grapefruit",
+            "Mandarin"
+        ],
+
+        "Vegatables": [
+            "Kale",
+            "Spinach",
+            "Collard greens",
+            "Red and yellow peppers",
+            "Brocolli"
+        ],
+
+        "Nuts_and_seeds": [
+            "cashews",
+            "pistachios",
+            "sunflower seeds",
+            "pumpkin seeds"
+        ],
+
+        "Meat": [
+            "beef",
+            "chicken"
+        ],
+
+        "Seafood": [
+            "shellfish",
+            "oysters",
+            "shrimp",
+            "sardines",
+            "tuna",
+            "salmon",
+            "halibut"
+        ],
+
+        "Beans": [
+            "chickpeas",
+            "soybeans",
+            "black-eyed peas",
+            "pinto beans",
+            "black beans",
+            "peas"
+        ]
+    }
+    
+}

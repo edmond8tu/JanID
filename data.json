@@ -10,12 +10,14 @@
         "Salmon with rice and spinach",
         "Kale chicken salad",
         "Pesto pasta with chicken and spinach",
-        "Grilled salmon"
+        "Grilled salmon",
+        "Mcdonalds Cheeseburger",
+        "In-n-out Cheeseburger"
     ],
 
     "Categories": {
         "Fruits": [
-            "Orange",   
+            "Orange",
             "Lemon",
             "Tangerine",
             "Lime",
@@ -32,34 +34,34 @@
         ],
 
         "Nuts_and_seeds": [
-            "cashews",
-            "pistachios",
-            "sunflower seeds",
-            "pumpkin seeds"
+            "Cashews",
+            "Pistachios",
+            "Sunflower seeds",
+            "Pumpkin seeds"
         ],
 
         "Meat": [
-            "beef",
-            "chicken"
+            "Beef",
+            "Chicken"
         ],
 
         "Seafood": [
-            "shellfish",
-            "oysters",
-            "shrimp",
-            "sardines",
-            "tuna",
-            "salmon",
-            "halibut"
+            "Shellfish",
+            "Oysters",
+            "Shrimp",
+            "Sardines",
+            "Tuna",
+            "Salmon",
+            "Halibut"
         ],
 
         "Beans": [
-            "chickpeas",
-            "soybeans",
-            "black-eyed peas",
-            "pinto beans",
-            "black beans",
-            "peas"
+            "Chickpeas",
+            "Soybeans",
+            "Black-eyed peas",
+            "Pinto beans",
+            "Black beans",
+            "Peas"
         ]
     }
     

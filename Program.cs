@@ -24,9 +24,41 @@ namespace JanID
             string mealOrFood = promptOptions("Would you like a meal or a specific food?", options);
 
             if (mealOrFood == "Meal") {
-                Console.WriteLine(randomItem(food.Meals));
+                Console.WriteLine($"{Environment.NewLine}{randomItem(food.Meals)}");
             } else {
-                
+                string[] foodOptions = {"Vegatables", "Nuts and seeds", "Meat", "Seafood", "Beans"};
+                string category = promptOptions("Choose a category of food!", foodOptions);
+
+                if (category == "Nuts and seeds") {
+                    category = "Nuts_and_seeds";
+                }
+
+                Console.WriteLine($"{Environment.NewLine}{randomItem(food.Categories[category])}");
+
+                if (category == "Vegatables") {
+                    Console.WriteLine($"{Environment.NewLine}Heads-up! Some dark, leafy greens contain oxalates, which inhibit iron absorption. Try to incorporate other sources of iron as well!");
+                    Console.WriteLine("Another way to counteract this effect is to consume Vitamin C, which will increase iron absorption.");
+                    //Console.WriteLine("Would you like a recommendation for a fruit that contains Vitamin C?");
+
+                    string[] yesNo = {"Yes", "No"};
+                    string fruit = promptOptions("Would you like a recommendation for a fruit that contains Vitamin C?", yesNo);
+                    //string[] jsonFruits = 
+                    if (fruit == "Yes") {
+                        Console.WriteLine($"{Environment.NewLine}{randomItem(food.Categories["Fruits"])}");
+                    } else {
+
+                    }
+                    
+                }
+
+                if (category == "Meat") {
+                    Console.WriteLine($"{Environment.NewLine}Great choice! Meat contains heme iron, which is much easier to absorb than its counterpart, non-heme iron!");
+                    Console.WriteLine("Keep in mind, red meat has the highest amount of iron, while poultry and chicken have lower amounts.");
+                }
+
+                if (category == "Beans") {
+                    Console.WriteLine($"{Environment.NewLine}Heads-up! Beans contain phylates, which can inhibit iron absorption! Be sure to include other sources of iron in your diet!");
+                }
             }
         }
 

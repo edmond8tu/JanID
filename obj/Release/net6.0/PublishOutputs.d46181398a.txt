@@ -1,0 +1,5 @@
+C:\Users\edmon\JanID\bin\Release\net6.0\publish\JanID.exe
+C:\Users\edmon\JanID\bin\Release\net6.0\publish\JanID.dll
+C:\Users\edmon\JanID\bin\Release\net6.0\publish\JanID.deps.json
+C:\Users\edmon\JanID\bin\Release\net6.0\publish\JanID.runtimeconfig.json
+C:\Users\edmon\JanID\bin\Release\net6.0\publish\JanID.pdb

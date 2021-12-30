@@ -1,0 +1,15 @@
+C:\Users\edmon\JanID\bin\Release\net6.0\JanID.exe
+C:\Users\edmon\JanID\bin\Release\net6.0\JanID.deps.json
+C:\Users\edmon\JanID\bin\Release\net6.0\JanID.runtimeconfig.json
+C:\Users\edmon\JanID\bin\Release\net6.0\JanID.dll
+C:\Users\edmon\JanID\bin\Release\net6.0\ref\JanID.dll
+C:\Users\edmon\JanID\bin\Release\net6.0\JanID.pdb
+C:\Users\edmon\JanID\obj\Release\net6.0\JanID.csproj.AssemblyReference.cache
+C:\Users\edmon\JanID\obj\Release\net6.0\JanID.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\edmon\JanID\obj\Release\net6.0\JanID.AssemblyInfoInputs.cache
+C:\Users\edmon\JanID\obj\Release\net6.0\JanID.AssemblyInfo.cs
+C:\Users\edmon\JanID\obj\Release\net6.0\JanID.csproj.CoreCompileInputs.cache
+C:\Users\edmon\JanID\obj\Release\net6.0\JanID.dll
+C:\Users\edmon\JanID\obj\Release\net6.0\ref\JanID.dll
+C:\Users\edmon\JanID\obj\Release\net6.0\JanID.pdb
+C:\Users\edmon\JanID\obj\Release\net6.0\JanID.genruntimeconfig.cache

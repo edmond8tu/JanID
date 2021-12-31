@@ -39,10 +39,16 @@ namespace JanID
 
                     Console.WriteLine($"{Environment.NewLine}{randomItem(food.Categories[category])}");
 
+                    
+
                     if (category == "Vegatables") {
+                        spacer();
+                        
                         Console.WriteLine($"{Environment.NewLine}Heads-up! Some dark, leafy greens contain oxalates, which inhibit iron absorption. Try to incorporate other sources of iron as well!");
                         Console.WriteLine("Another way to counteract this effect is to consume Vitamin C, which will increase iron absorption.");
                         //Console.WriteLine("Would you like a recommendation for a fruit that contains Vitamin C?");
+
+                        spacer();
 
                         string[] yesNo = {"Yes", "No"};
                         string fruit = promptOptions("Would you like a recommendation for a fruit that contains Vitamin C?", yesNo);
@@ -62,7 +68,9 @@ namespace JanID
                     }
                 }
 
-                //confirmEnd();
+
+                // spacer before next message
+                spacer();
 
                 // give option to continue or end program
                 string[] endOptions = {"Look for more iron", "End da program"};
@@ -107,11 +115,20 @@ namespace JanID
             }
 
             Console.WriteLine(allOptions);
-            
-            int optionChosen = int.Parse(Console.ReadLine());
-            string stringOption = options[optionChosen - 1];
 
-            return stringOption;
+            do
+            {
+                try {
+                    int optionChosen = int.Parse(Console.ReadLine());
+                    string stringOption = options[optionChosen - 1];
+                    return stringOption;
+                } catch {
+                    Console.WriteLine($"{Environment.NewLine}Soz, das not a valid option madam! Pls try again! Here are da options again:");;
+                    Console.WriteLine(allOptions);
+
+                }
+            } while (true);
+
 
         }
 
@@ -119,8 +136,8 @@ namespace JanID
             return items[new Random().Next(0, items.Length)];
         }
 
-        static void confirmEnd() {
-            Console.WriteLine($"{Environment.NewLine}Press any key to end da program!");
+        static void spacer() {
+            Console.WriteLine($"{Environment.NewLine}Press any button to proceed madam!");
             Console.ReadKey(true);
         }
     }

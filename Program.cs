@@ -1,5 +1,5 @@
 ﻿using System.Text.Json;
-using System.Threading;
+//using System.Threading;
 
 namespace JanID
 {
@@ -73,11 +73,11 @@ namespace JanID
                 spacer();
 
                 // give option to continue or end program
-                string[] endOptions = {"Look for more iron", "End da program"};
+                string[] endOptions = {"Look for more iron", "End da program >:("};
                 string choice = promptOptions("What would you like to do next?", endOptions);
-                if (choice == "End da program") {
+                if (choice == "End da program >:(") {
                     Console.WriteLine($"{Environment.NewLine}BYE DOOFUS");
-                    Thread.Sleep(3000);
+                    Thread.Sleep(2000);
 
                     flag = false;
                 }
@@ -87,7 +87,7 @@ namespace JanID
 
         static void welcomeMsg()    
         {
-            string title = "Jan's Personal Anemia Slayer";
+            string title = "YAN's Personal Anemia Slayer";
             Console.SetCursorPosition((Console.WindowWidth - title.Length) / 2, Console.CursorTop);
             Console.WriteLine(title);
 

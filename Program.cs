@@ -1,5 +1,5 @@
-﻿using System;
-using System.Text.Json;
+﻿using System.Text.Json;
+using System.Threading;
 
 namespace JanID
 {
@@ -43,7 +43,7 @@ namespace JanID
 
                     if (category == "Vegatables") {
                         spacer();
-                        
+
                         Console.WriteLine($"{Environment.NewLine}Heads-up! Some dark, leafy greens contain oxalates, which inhibit iron absorption. Try to incorporate other sources of iron as well!");
                         Console.WriteLine("Another way to counteract this effect is to consume Vitamin C, which will increase iron absorption.");
                         //Console.WriteLine("Would you like a recommendation for a fruit that contains Vitamin C?");
@@ -76,6 +76,9 @@ namespace JanID
                 string[] endOptions = {"Look for more iron", "End da program"};
                 string choice = promptOptions("What would you like to do next?", endOptions);
                 if (choice == "End da program") {
+                    Console.WriteLine($"{Environment.NewLine}BYE DOOFUS");
+                    Thread.Sleep(3000);
+
                     flag = false;
                 }
             }
